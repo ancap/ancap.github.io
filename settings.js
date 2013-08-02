@@ -1,4 +1,4 @@
-hs.graphicsDir = '/extensions/Highslide/graphics/';
+// hs.graphicsDir = '/extensions/Highslide/graphics/';
 hs.showCredits = false;
 hs.outlineType = null;
 hs.align = 'center';
