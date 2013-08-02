@@ -1,6 +1,6 @@
 hs.graphicsDir = 'https://ancap.github.io/graphics/';
 hs.showCredits = false;
-hs.outlineType = null;
+// hs.outlineType = null;
 hs.align = 'center';
 hs.allowSizeReduction = false;
 hs.allowMultipleInstances = false;
