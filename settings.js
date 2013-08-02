@@ -4,6 +4,11 @@ hs.outlineType = null;
 hs.align = 'center';
 hs.allowSizeReduction = false;
 hs.allowMultipleInstances = false;
+hs.numberOfImagesToPreload = 0;
+hs.expandSteps = 10;
+hs.expandDuration = 250;
+hs.restoreSteps = 10;
+hs.restoreDuration = 250;
 hs.registerOverlay({
   html: '<div class="closebutton" onclick="return hs.close(this)" title="Закрыть"></div>',
   position: 'top right',
