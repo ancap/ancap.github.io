@@ -48,7 +48,7 @@ $("a").each(function() {
 
 });
 
-$("h1").after("<a class='toggleS'>Переключить</a>");
+$("h1").prepend("<a class='toggleS'>Переключить</a>");
 
 $(document).on("click", ".toggleS", function(){
 
