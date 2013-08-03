@@ -48,4 +48,6 @@ $("a").each(function() {
 
 });
 
+$("sup").hide();
+
 });
