@@ -48,6 +48,6 @@ $("a").each(function() {
 
 });
 
-$("sup").hide();
+$("sup, .thumbinner").hide();
 
 });
