@@ -52,7 +52,7 @@ $("h1").append("<sup><a class='toggleS'>Переключить</a></sup>");
 
 $(document).on("click", ".toggleS", function(){
 
-  $("sup, .thumbinner").not("sup a:contains('Переключить')").toggle();
+  $("sup, .thumbinner").not("sup:contains('Переключить')").toggle();
 
 });
 
