@@ -48,7 +48,7 @@ $("a").each(function() {
 
 });
 
-$("h1").append("<sup><a class='toggleS'>Переключить</a></sup>");
+$("h1").append(" <sup><a class='toggleS'>Переключить</a></sup>");
 $(".toggleS").css("cursor", "pointer");
 
 $(document).on("click", ".toggleS", function(){
