@@ -48,6 +48,12 @@ $("a").each(function() {
 
 });
 
-$("sup, .thumbinner").hide();
+$("h1").after("<a class='toggleS'>Переключить</a>");
+
+$(document).on("click", ".toggleS", function(){
+
+  $("sup, .thumbinner").toggle();
+
+});
 
 });
