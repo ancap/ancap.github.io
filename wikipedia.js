@@ -1,5 +1,5 @@
 $(document).ready(function() {
 
-  $("p").hide();
+  $("img").hide();
 
 });
