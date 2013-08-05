@@ -668,6 +668,7 @@ function montageImages($container) {
       $(".mainCoverImage").show();
 
     link.parents("div").find("strong a").unwrap();
+    if (!link.parents("strong").length)
     link.wrap("<strong>");
 
   }
