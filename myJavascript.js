@@ -667,7 +667,7 @@ function montageImages($container) {
     else
       $(".mainCoverImage").show();
 
-    link.parent().find("strong a").unwrap();
+    link.parents("div").find("strong a").unwrap();
     link.wrap("<strong>");
 
   }
