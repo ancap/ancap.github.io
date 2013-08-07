@@ -54,7 +54,7 @@ $(".toggleS").css("cursor", "pointer");
 $(document).on("click", ".toggleS", function(){
 
   $("sup, .thumbinner").not("sup:contains('Переключить')").toggle();
-  $("h2, h3, h4, h5").find("span").not(":first").toggle();
+  $("h2, h3, h4, h5").find("span:not(:first)").toggle();
 
 });
 
