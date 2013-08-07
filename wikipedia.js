@@ -59,7 +59,10 @@ $(document).on("click", ".toggleS", function(){
   if (!$("ol li").children().first().is("span.hasht"))
     $("ol li").prepend($("<span class='hasht'># </span>").hide());
 
-  $("ol li span.hasht").each(function(){
+  if (!$("ul li").children().first().is("span.star"))
+    $("ul li").prepend($("<span class='star'>* </span>").hide());
+
+  $("ol li span.hasht, ul li span.star").each(function(){
     ($(this).css("display") == "inline") ? $(this).css("display", "none") : ($(this).css("display") == "none") ? $(this).css("display", "inline") : null;
   });
 
