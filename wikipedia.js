@@ -55,6 +55,7 @@ $(document).on("click", ".toggleS", function(){
 
   $("sup, .thumbinner").not("sup:contains('Переключить')").toggle();
   $("h2, h3, h4, h5").find("span:not(:first)").toggle();
+  console.log(JSON.stringify($("ol li").children().is(":first(span.hasht)"), null, 2));
   if (!$("ol li").children().is(":first(span.hasht)"))
   $("ol li").prepend($("<span class='hasht'># </span>").hide());
   $("ol li span.hasht").toggle();
