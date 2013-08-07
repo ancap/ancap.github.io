@@ -57,7 +57,7 @@ $(document).on("click", ".toggleS", function(){
   $("h2, h3, h4, h5").find("span:not(:first)").toggle();
 
   if (!$("ol li").children().first().is("span.hasht"))
-    $("ol li").prepend($("<span class='hasht'># </span>").hide());
+    $("ol li").prepend("<span class='hasht'># </span>");
   $("ol li span.hasht").toggle();
 
 });
