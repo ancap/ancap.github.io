@@ -58,7 +58,7 @@ $(document).on("click", ".toggleS", function(){
 
   if (!$("ol li").children().first().is("span.hasht"))
     $("ol li").prepend($("<span class='hasht'># </span>").hide());
-
+ 
   $("ol li span.hasht").each(function(){
     ($(this).css("display") == "inline") ? $(this).css("display", "none") : ($(this).css("display") == "none") ? $(this).css("display", "inline" : null);
   });
